@@ -1,0 +1,13 @@
+server:
+  port: 8001
+
+rpc:
+  instance: rpc-client-1
+  client:
+    enable: true
+  server:
+    enable: false
+registry:
+  redis:
+    host: 192.168.159.101
+    port: 6379

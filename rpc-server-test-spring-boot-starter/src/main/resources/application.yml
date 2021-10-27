@@ -1,0 +1,14 @@
+server:
+  port: 8002
+
+rpc:
+  instance: rpc-server-1
+
+  server:
+    enable: true
+    addr: localhost:8003
+
+registry:
+  redis:
+    host: 192.168.159.101
+    port: 6379
